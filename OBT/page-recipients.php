@@ -168,7 +168,7 @@ jQuery( document ).ready( function( $ ) {
             url: "/wp-admin/admin-ajax.php",
             type: 'post',
             data: {
-                action: 'fjorge_get_grants',
+                action: 'ajax_get_grants',
                 page : pageID,
 				region : filterRegion,
 				type : filterType,
